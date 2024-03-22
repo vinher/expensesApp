@@ -26,7 +26,7 @@
                         android:textColor="@color/card"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
+                        android:layout_weight="1.5"
                         android:textStyle="bold"
                         android:layout_margin="8sp"
                         android:textSize="20sp"
@@ -39,8 +39,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="$100"
+                        android:layout_margin="8sp"
                         android:textColor="@color/card"
-                        android:textSize="16sp"
+                        android:textSize="22sp"
                         android:textStyle="bold">
 
                     </TextView>
@@ -51,10 +52,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:textColor="@color/card"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
                         android:layout_margin="8sp"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -64,10 +64,12 @@
                         android:textColor="@color/card"
                         android:id="@+id/description"
                         android:tag="description"
+                        android:layout_gravity="center_vertical"
                         android:layout_weight="1"
+                        android:layout_margin="4sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Descripcion">
+                        android:text="-">
                     </TextView>
 
                 </LinearLayout>

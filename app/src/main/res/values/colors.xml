@@ -6,4 +6,10 @@
     <color name="item">#FFF3CF</color>
     <color name="buttons">#E8C872</color>
     <color name="card">#637A9F</color>
+
+
+    <color name="contorno"> #E8C872</color>
+    <color name="secundary">#4B527E</color>
+    <color name="primary">  #7C81AD</color>
+
 </resources>
